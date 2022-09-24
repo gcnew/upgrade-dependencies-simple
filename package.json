@@ -1,0 +1,27 @@
+{
+  "name": "upgrade-dependencies-simple",
+  "version": "1.0.0",
+  "description": "A simple, auditable, no external dependencies cli script that upgrades your dependencies to the latest version",
+
+  "author": "gcnew",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcnew/upgrade-dependencies-simple.git"
+  },
+
+  "keywords": [
+    "dependencies",
+    "upgrade",
+    "simple",
+    "cli",
+    "script"
+  ],
+
+  "main": "index.js",
+  "bin": "./index.js",
+
+  "scripts": {
+  }
+}
