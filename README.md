@@ -8,3 +8,17 @@ This project is different. What we do:
  - fetch the latest `dependencies` and `devDependencies` versions from NPM via a simple rest call
  - by default no destructive actions are done, the new json simply printed to stdout
  - there is a hidden `--force-save` to write out the new `package.json` if you are lazy
+
+## How to use
+
+Prints the upgraded `package.json` to stdout. No destructive actions done
+```bash
+npx upgrade-dependencies-simple
+```
+
+Overwrites your `package.json`.
+```bash
+npx upgrade-dependencies-simple --force-save
+```
+
+PS: Don't forget to run `npm install` after updating your `package.json`!
