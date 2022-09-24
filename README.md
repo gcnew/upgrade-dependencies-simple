@@ -22,3 +22,6 @@ npx upgrade-dependencies-simple --force-save
 ```
 
 PS: Don't forget to run `npm install` after updating your `package.json`!
+
+## Requirements
+`node version` **>=** `12`
