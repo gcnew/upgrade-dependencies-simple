@@ -1,6 +1,6 @@
 {
   "name": "upgrade-dependencies-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, auditable, no external dependencies cli script that upgrades your dependencies to the latest version",
 
   "author": "gcnew",
