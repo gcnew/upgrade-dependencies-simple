@@ -62,4 +62,7 @@ async function main() {
     }
 }
 
-main();
+main().then(null, e => {
+    console.error(e);
+    process.exit(1);
+});
